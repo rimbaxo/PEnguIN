@@ -1,0 +1,25 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "checkJs": true,
+    "target": "ES2015",
+    "module": "commonjs",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-native",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "lib": ["es2015", "esnext.asynciterable"],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+    },
+},
+  "include": ["src/**/*"],
+}
